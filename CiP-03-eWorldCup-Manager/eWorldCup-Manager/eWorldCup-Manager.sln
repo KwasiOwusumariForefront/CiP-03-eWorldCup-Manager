@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eWorldCup-Manager", "eWorldCup-Manager.csproj", "{53838D77-8021-4C73-81DC-E9824A987BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Player.cs = Player.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{65046505-C526-4248-892D-35A12034769E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0ACEAB0D-E1D2-432F-B5F6-A31311360A1F}"
+	ProjectSection(SolutionItems) = preProject
+		PlayerList.cs = PlayerList.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eWorldCup-Manager.Domain", "..\eWorldCup-Manager.Domain\eWorldCup-Manager.Domain.csproj", "{E2A6AB1A-3531-4770-AF5C-A2466DF21CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eWorldCup-Manager.Application", "..\eWorldCup-Manager.Application\eWorldCup-Manager.Application.csproj", "{A7BC12D4-7657-45FB-86C2-6F9432C70297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eWordCup-Manager.Infrastructure", "..\eWordCup-Manager.Infrastructure\eWordCup-Manager.Infrastructure.csproj", "{331DDA21-5E81-4D2C-AC6D-38EE61E92E18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53838D77-8021-4C73-81DC-E9824A987BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53838D77-8021-4C73-81DC-E9824A987BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53838D77-8021-4C73-81DC-E9824A987BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53838D77-8021-4C73-81DC-E9824A987BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A6AB1A-3531-4770-AF5C-A2466DF21CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A6AB1A-3531-4770-AF5C-A2466DF21CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A6AB1A-3531-4770-AF5C-A2466DF21CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A6AB1A-3531-4770-AF5C-A2466DF21CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BC12D4-7657-45FB-86C2-6F9432C70297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BC12D4-7657-45FB-86C2-6F9432C70297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BC12D4-7657-45FB-86C2-6F9432C70297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BC12D4-7657-45FB-86C2-6F9432C70297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331DDA21-5E81-4D2C-AC6D-38EE61E92E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331DDA21-5E81-4D2C-AC6D-38EE61E92E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331DDA21-5E81-4D2C-AC6D-38EE61E92E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331DDA21-5E81-4D2C-AC6D-38EE61E92E18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {65046505-C526-4248-892D-35A12034769E}
+		{0ACEAB0D-E1D2-432F-B5F6-A31311360A1F} = {65046505-C526-4248-892D-35A12034769E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9A66480-CA36-4AE2-8D96-CA62713FB198}
+	EndGlobalSection
+EndGlobal
