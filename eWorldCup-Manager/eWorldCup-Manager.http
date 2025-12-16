@@ -1,0 +1,60 @@
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+@eWorldCup_Manager_HostAddress = https://localhost:7248
+
+POST {{eWorldCup_Manager_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  "name": "walk dog",
+  "isComplete": true
+}
+
+###
+
+GET {{eWorldCup_Manager_HostAddress}}/api/todoitems
+
+###
+
+@id=1
+GET {{eWorldCup_Manager_HostAddress}}/api/todoitems/{{id}}
+
+###
+
+
+DELETE {{eWorldCup_Manager_HostAddress}}/api/todoitems/1
+
+###
+
+@rounds=10
+GET {{eWorldCup_Manager_HostAddress}}/api/todoitems/match/{{rounds}}
+
+###
+
+@max=10
+GET {{eWorldCup_Manager_HostAddress}}/api/todoitems/rounds/{{max}}
+
+###
+
+@i=10
+@d=3
+GET {{eWorldCup_Manager_HostAddress}}/api/todoitems/match/remaining?i={{i}}&d={{d}}
+
+###
+
+@roundNum=7
+GET {{eWorldCup_Manager_HostAddress}}/api/eworldcup_manager/{{roundNum}}
+
+###
+
+GET {{eWorldCup_Manager_HostAddress}}/api/eworldcup_manager/{{roundNum}}
+
+###
